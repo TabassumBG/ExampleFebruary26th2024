@@ -24,6 +24,7 @@ public class EdgeBrowserDemo {
 		try 
 		{
 			edge.get("http://localhost:81/login.do");
+			Thread.sleep(2000);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
